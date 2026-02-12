@@ -1,0 +1,11 @@
+name: mylib-devcontainers
+services:
+  oracle:
+    extends:
+      file: ../compose.yaml
+      service: oracle
+
+  dev:
+    extends:
+      file: ../compose.yaml
+      service: dev

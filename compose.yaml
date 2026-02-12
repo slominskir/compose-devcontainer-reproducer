@@ -1,0 +1,10 @@
+services:
+  oracle:
+    extends:
+      file: deps.yaml
+      service: oracle
+
+  dev:
+    image: codecr.jlab.org/acc/iac/containers/cxx-container:3
+    hostname: dev
+    container_name: mylib-dev
