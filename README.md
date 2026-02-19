@@ -21,3 +21,9 @@ When creating a devcontainer from a local devcontainer file via the Gateway app 
 <img width="1386" height="993" alt="image" src="https://github.com/user-attachments/assets/cfec4e8d-2cf3-4a5c-83f1-df55644b65c0" />
 
 https://youtrack.jetbrains.com/issue/IJPL-235712/Gateway-new-devcontainer-from-local-no-volume-option
+
+# JetBrains Response:
+I've been advised this is a known issue as mentioned here:
+<img width="2084" height="1712" alt="image" src="https://github.com/user-attachments/assets/b40be1dd-99eb-4344-b51f-7cfe4d3bcdb8" />
+This is about as clear as mud.
+
