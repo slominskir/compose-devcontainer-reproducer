@@ -19,3 +19,5 @@ This should work.  In fact, if you create a Local Project first and then use the
 When creating a devcontainer from a local devcontainer file via the Gateway app (Step 1), notice there is no option to choose if files should be cloned vs bind mounted and instead bind mount appears to always be used.   This is problematic since generally clone is needed to avoid file system permission issues (and performance issues) on Windows.  There is a way to choose clone via local devcontainer file, but it's extra steps and subltle - you must first create a local project (even if it has no chance of compiling on Windows) and then use the tiny little box icon that appears in the "gutter" when viewing the devcontainer.json file to choose a clone devcontainer option as pictured here:
 
 <img width="1386" height="993" alt="image" src="https://github.com/user-attachments/assets/cfec4e8d-2cf3-4a5c-83f1-df55644b65c0" />
+
+https://youtrack.jetbrains.com/issue/IJPL-235712/Gateway-new-devcontainer-from-local-no-volume-option
